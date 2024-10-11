@@ -1,0 +1,68 @@
+.navbar {
+    background-color: #008080; /* Teal background */
+    border-radius: 0; /* No rounded corners for a sleek look */
+}
+
+.navbar .navbar-brand {
+    color: #ffffff; /* White for brand text */
+    font-weight: bold; /* Bold text */
+}
+
+.navbar .nav-link {
+    color: #ff6347; /* Coral color for nav links */
+}
+
+.navbar .nav-link:hover {
+    color: #ff4500; /* Darker coral on hover */
+}
+
+.navbar .dropdown-item {
+    color: #008080; /* Teal for dropdown items */
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #ff6347; /* Coral background on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Light border for toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White color for toggler icon */
+}
+
+.searchInput {
+    border: 2px solid #ff6347; /* Coral border for search input */
+    border-radius: 20px; /* Rounded corners for input */
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+}
+
+.searchButton {
+    background-color: #ff6347; /* Coral color for search button */
+    color: #ffffff; /* White text for button */
+    border-radius: 20px; /* Rounded corners for button */
+}
+
+.searchButton:hover {
+    background-color: #ff4500; /* Darker coral on hover */
+}
+
+.trademark {
+    margin-left: 20px; /* Adjust spacing as needed */
+    display: flex;
+    align-items: center; /* Center the label vertically */
+}
+
+.trademarkLabel {
+    background-color: #ff6347; /* Coral background for the label */
+    color: #ffffff; /* White text for the label */
+    padding: 8px 16px; /* Padding for the label */
+    border-radius: 20px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    font-size: 1rem; /* Font size for the label */
+    cursor: default; /* Indicate it's not clickable */
+}
+

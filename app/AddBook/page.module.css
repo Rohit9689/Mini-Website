@@ -1,0 +1,34 @@
+.classicBackground {
+    background-color: #f0f0f0; /* Light grey background for overall container */
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #008080; /* Teal color for headings */
+  }
+  
+  .funLabel {
+    color: #008080; /* Teal color for labels */
+  }
+  
+  .button {
+    background-color: #008080; /* Teal color for buttons */
+    color: #ffffff; /* White text for buttons */
+    border-radius: 20px; /* Rounded corners for buttons */
+  }
+  
+  .button:hover {
+    background-color: #ff6347; /* Coral color on hover */
+  }
+  
+  .form {
+    margin-top: 20px; /* Margin for form */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Margin for button container */
+  }
+  

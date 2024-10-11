@@ -1,42 +1,33 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.homeContainer {
+  padding: 20px;
+  background-color: #f7f9fc; /* Light background for contrast */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.jumbotron {
+  background-color: #343a40; /* Dark background for the jumbotron */
+  color: #ffffff; /* White text */
+  padding: 2rem;
+  border-radius: 0.3rem;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.card {
+  margin-bottom: 20px; /* Spacing between cards */
+  transition: transform 0.2s; /* Smooth hover effect */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.quoteCard {
+  background-color: #ffffff; /* White background for the quote card */
+  border: 1px solid #ced4da; /* Light grey border */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h2 {
+  margin-top: 30px; /* Space above section titles */
+  color: #343a40; /* Darker color for section titles */
+  border-bottom: 2px solid #007bff; /* Blue underline */
+  padding-bottom: 10px; /* Space below the title */
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}

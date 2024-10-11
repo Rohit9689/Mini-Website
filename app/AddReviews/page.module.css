@@ -1,0 +1,77 @@
+/* Container for centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+    flex-direction: column;
+    padding: 2rem;
+}
+
+/* Form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(145deg, #008080, #4db8b8); /* Teal gradient */
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    animation: popIn 0.5s ease-out;
+}
+
+/* Input fields with funky styling */
+.inputGroup {
+    margin-bottom: 1.5rem;
+}
+
+.inputField {
+    width: 350px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField:focus {
+    outline: none;
+    transform: scale(1.05);
+    border-color: #ff6347; /* Coral color */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Submit button with funky effects */
+.submitButton {
+    background: linear-gradient(90deg, #ff6a88, #ff99ac); /* Soft pink gradient */
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.submitButton:hover {
+    background: linear-gradient(90deg, #ff9a6a, #ffb888); /* Light pink hover */
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Funky bounce animation for the form */
+@keyframes popIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

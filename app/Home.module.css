@@ -1,0 +1,50 @@
+.classicBackground {
+  background-color: #f0f0f0; /* Light grey background for overall container */
+}
+
+.mainHeader {
+  background-color: #008080; /* Teal background for header */
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.subText {
+  font-size: 1.25rem;
+}
+
+.card {
+  border: none; /* No borders for cards */
+  border-radius: 10px; /* Rounded corners for cards */
+}
+
+.quoteIcon {
+  font-size: 2rem;
+  color: #ff6347; /* Coral color for quote icon */
+}
+
+.quoteText {
+  font-size: 1.25rem; /* Font size for quote text */
+}
+
+.footer {
+  background-color: #008080; /* Match footer background with navbar */
+  padding: 20px 0; /* Add padding for footer */
+}
+
+.contactButton {
+  background-color: #008080; /* Teal color for contact button */
+  color: #ffffff; /* White text for button */
+  border-radius: 20px; /* Rounded corners for button */
+}
+
+.contactButton:hover {
+  background-color: #ff6347; /* Coral color on hover */
+}
+
+/* Ensuring text colors are consistent */
+.text-dark {
+  color: #333; /* Dark color for text */
+}
